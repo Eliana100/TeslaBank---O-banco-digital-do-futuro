@@ -1,0 +1,21 @@
+/*config gerais*/
+body{
+    font-family: var(--font-secondary);
+}
+
+a{
+    text-decoration: none;
+    color: var(--dark-10);
+}
+
+ul, li{
+    list-style: none;
+}
+
+h1{
+    font-family: var(--font-primary);
+}
+
+span{
+    color: var(--brand-color-red);
+}

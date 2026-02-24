@@ -1,0 +1,185 @@
+@import url(/Css/root.css);
+@import url(/Css/global.css);
+
+/*header*/
+header {
+  width: 100%;
+}
+
+header,
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu li a {
+  display: flex;
+  font-size: var(--fs-body-normal);
+  align-items: center;
+  gap: 8px;
+}
+
+.menu {
+  align-items: center;
+  gap: var(--sp-3);
+}
+
+.link-conta-digital {
+  background-color: #f9f9f9;
+  padding: 8px;
+  border-radius: 6px;
+}
+
+#img-seta-li {
+  display: block;
+  width: 24px;
+}
+
+.container-menu {
+  margin: 0 80px 0;
+  padding: var(--sp-4);
+  gap: var(--sp-8);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-header {
+  display: flex;
+  gap: var(--sp-2);
+}
+
+.btn-header a {
+  font-size: var(--fs-body-medium);
+  font-weight: var(--fw-medium);
+}
+
+#btn-entrar {
+  padding: 12px var(--sp-3);
+}
+
+#btn-entrar span:hover {
+  color: var(--brand-color-hover);
+}
+
+#btn-abrir-conta {
+  background-color: var(--brand-color-red);
+  color: var(--branco);
+  padding: 12px var(--sp-3);
+  border-radius: 4px;
+}
+
+#btn-abrir-conta:hover {
+  background-color: var(--brand-color-hover);
+}
+
+.container {
+  max-width: 1216px;
+  margin: auto;
+  padding: 0 var(--sp-4);
+}
+
+/*main*/
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  margin-top: 80px;
+  gap: 30px;
+}
+
+.container-texto-h1-p p {
+  margin-bottom: var(--sp-5);
+}
+
+.container-texto-h1-p h2 {
+  font-size: var(--fs-h1);
+  line-height: var(--lh-h1);
+  font-weight: var(--fw-medium);
+  margin-bottom: var(--sp-2);
+}
+
+.container-texto-h1-p p {
+  font-size: var(--fs-p);
+}
+
+.container-texto-bn {
+  display: flex;
+  gap: var(--sp-5);
+}
+
+.container-texto-bn p {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: var(--fs-body-normal);
+  margin-bottom: 16px;
+}
+
+.bloco-01,
+.bloco-02,
+p {
+  margin-bottom: var(--sp-2);
+}
+
+.bloco-02 {
+  margin-bottom: var(--sp-5);
+}
+
+#btn-link-open-conta {
+  padding: var(--sp-2, --sp-5);
+  background: var(--brand-color-red);
+  color: var(--branco);
+  border-radius: 4px;
+}
+
+#btn-link-open-conta:hover{
+  background-color: var(--brand-color-hover);
+}
+
+#btn-link-open-conta{
+  display: flex;
+  gap: var(--sp-2);
+  font-size: var(--sp-3);
+  font-weight: var(--fs-body-medium);
+}
+
+#btn-link-open-conta img{
+    display: block;
+}
+
+.bloco-img-card {
+  width: 399.07px;
+  align-items: center;
+}
+
+.btn-logos {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-6);
+  margin-top: 32px;
+}
+
+.logos-apple-play {
+  display: flex;
+  gap: 16px;
+}
+
+.btn-logos a {
+  text-align: center;
+}
+
+.bloco-img-card {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  width: 100%;
+}
+
+#img-card {
+  max-width: 100%;
+  height: auto;
+  filter: drop-shadow(0 12px 24px rgba(11, 31, 77, 0.14));
+}
